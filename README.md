@@ -4,4 +4,8 @@ A python script that utilizes the VGG19 pre-trained model to transfer style of f
 
 Download "imagenet-vgg-verydeep-19" from http://vlfeat.org/matconvnet/pretrained/ and place into "pre_trained_model" folder
 
+# Basic Use
+```
 python run_main.py --content <content file> --style <style file> --output <output file>
+```
+
