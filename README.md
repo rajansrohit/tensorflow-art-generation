@@ -7,7 +7,7 @@ Download "imagenet-vgg-verydeep-19" from http://vlfeat.org/matconvnet/pretrained
 # Prerequisites
 1. Tensorflow Library
 2. numpy, scipy, Pillow, matplotlib
-3. VGG file
+3. VGG file from http://vlfeat.org/matconvnet/pretrained/
 
 # Basic Use
 ```
