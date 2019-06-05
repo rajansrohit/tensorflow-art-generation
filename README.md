@@ -13,5 +13,5 @@ Download "imagenet-vgg-verydeep-19" from http://vlfeat.org/matconvnet/pretrained
 ```
 python run_main.py --content <content file> --style <style file> --output <output file>
 ```
-
+Optional parameters maybe used
 
