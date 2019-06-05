@@ -1,4 +1,3 @@
-# Most code in this file was borrowed from https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/15_Style_Transfer.ipynb
 
 import matplotlib.pyplot as plt
 import numpy as np
