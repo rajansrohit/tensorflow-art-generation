@@ -1,6 +1,3 @@
-# Copyright (c) 2015-2016 Anish Athalye. Released under GPLv3.
-# Most code in this file was borrowed from https://github.com/anishathalye/neural-style/blob/master/vgg.py
-
 import tensorflow as tf
 import numpy as np
 import scipy.io
