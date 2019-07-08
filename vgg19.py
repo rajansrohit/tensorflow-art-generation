@@ -2,6 +2,8 @@ import tensorflow as tf
 import numpy as np
 import scipy.io
 
+# download URL : http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat
+
 MODEL_FILE_NAME = 'imagenet-vgg-verydeep-19.mat'
 
 def _conv_layer(input, weights, bias):
