@@ -9,7 +9,7 @@ import argparse
 
 """parsing and configuration"""
 def parse_args():
-    desc = "Tensorflow implementation of 'Image Style Transfer Using Convolutional Neural Networks"
+    desc = "Tensorflow implementation of '"
     parser = argparse.ArgumentParser(description=desc)
 
     parser.add_argument('--model_path', type=str, default='pre_trained_model', help='The directory where the pre-trained model was saved')
