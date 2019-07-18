@@ -4,7 +4,9 @@ import numpy as np
 import PIL.Image
 
 """Helper-functions for image manipulation"""
-
+# This function loads an image and returns it as a numpy array of floating-points.
+# The image can be automatically resized so the largest of the height or width equals max_size.
+# or resized to the given shape
 def load_image(filename, shape=None, max_size=None):
     image = PIL.Image.open(filename)
 
