@@ -29,7 +29,7 @@ class StyleTransfer:
 
     def _build_graph(self):
 
-        
+        """ prepare data """
         # this is what must be trained
         self.x = tf.Variable(self.x0, trainable=True, dtype=tf.float32)
 
