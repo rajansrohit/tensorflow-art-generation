@@ -74,7 +74,6 @@ def plot_images(content_image, style_image, mixed_image):
     for ax in axes.flat:
         ax.set_xticks([])
         ax.set_yticks([])
-
-    # Ensure the plot is shown correctly with multiple plots
-    # in a single Notebook cell.
+ 
+    # Ensure the plot is shown correctly with multiple plot in a single Notebook cell.
     plt.show()
