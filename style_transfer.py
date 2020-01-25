@@ -10,7 +10,6 @@ class StyleTransfer:
         self.net = net
         self.sess = session
 
-        # sort layers info
         self.CONTENT_LAYERS = collections.OrderedDict(sorted(content_layer_ids.items()))
         self.STYLE_LAYERS = collections.OrderedDict(sorted(style_layer_ids.items()))
 
