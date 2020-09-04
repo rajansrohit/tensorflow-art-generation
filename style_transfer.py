@@ -147,13 +147,3 @@ class StyleTransfer:
         gram = tf.matmul(tf.transpose(matrix), matrix)
 
         return gram
-
-
-
-
-
-
-
-
-
-
